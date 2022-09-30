@@ -1,0 +1,112 @@
+.overflow {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 1rem;
+}
+.error {
+    color: red;
+}
+.success {
+    color: #a6c2ad !important;
+}
+:root {
+    --contentBG: #f0f0f0;
+    --fontColor: #fff;
+    --headerLinkColor: #fff;
+    --buttonColor: #399e39;
+}
+.pagination {
+    margin: 0;
+    padding-left: 25%;
+}
+
+.pagination li {
+    display: inline-block;
+    border: 1px solid #ddd;
+    margin-right: -1px;
+    font: 13px/20px Arial, Helvetica, sans-serif;
+    background: #f0f0f0;
+}
+
+.pagination li a {
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    padding: 6px 10px 6px 10px;
+}
+
+.pagination li.active,
+.disabled {
+    text-decoration: none;
+    display: block;
+    padding: 6px;
+    color: #ffffff;
+    background: #000000;
+}
+
+.pagination li.active,
+li.disabled {
+    background: #ced4da;
+}
+.awaiting-processing {
+    color: #f79e1b;
+    font-weight: 600;
+    white-space: nowrap;
+    position: absolute;
+}
+.processing {
+    color: #f79e1b;
+    font-weight: 600;
+    white-space: nowrap;
+    position: absolute;
+}
+.ready_for_pickup {
+    color: #f79e1b;
+    font-weight: 600;
+    white-space: nowrap;
+    position: absolute;
+}
+.shipped {
+    color: #f79e1b;
+    font-weight: 600;
+    white-space: nowrap;
+    position: absolute;
+}
+.cancelled {
+    color: #eb001b;
+    font-weight: 600;
+    white-space: nowrap;
+    position: absolute;
+}
+.will_not_deliver {
+    color: #eb001b;
+    font-weight: 600;
+    white-space: nowrap;
+    position: absolute;
+}
+.returned {
+    color: #4ca7d4;
+    font-weight: 600;
+    white-space: nowrap;
+    position: absolute;
+}
+.delivered {
+    color: #62c454;
+    font-weight: 600;
+    white-space: nowrap;
+    position: absolute;
+}
+@media (max-width: 576px) {
+    .awaiting-processing,
+    .processing,
+    .ready_for_pickup,
+    .shipped,
+    .cancelled,
+    .will_not_deliver,
+    .returned,
+    .delivered,
+    .picked_up {
+        margin-top: 5.5px;
+    }
+}

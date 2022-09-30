@@ -1,0 +1,284 @@
+.cart-total{ position: relative; }
+.cart-total span{position:absolute;top: 10px;font-size:10px;right:8px !important;text-align:center;display: inline-block;width:14px;}
+
+#navbarResponsive .cart-total span {top: 18px;right: 10px !important;}
+.buyer-content.ar #navbarResponsive .cart-total span {top: 15px;right: 10px !important;}
+.contactus-link{line-height: 27px;}
+.product-details-model-header{z-index: 2;}
+footer.page-footer a.link-color img{width: 18px}
+/* START Sidebar section */
+.sidebar-section {height: 100vh;}
+.sidebar-contact-section {background-color: #F4F4F4;padding: 10px;}
+.sidebar-contact-section .need-help {vertical-align: middle;}
+.sidebar-quick-checkout-section .quick-secure-checkout {vertical-align: middle;font-size: 13px;}
+.sidebar-create-account-section .sidebar_create_account_link:hover {color: #fff;}
+.sidebar-create-account-section .sidebar_create_account_link span {vertical-align: middle;position: relative;top: 1px;}
+.sidebar-already-customer-section {font-size: 13px;}
+.sidebar-already-customer-section .sidebar-login-link {color: var(--buttonColor);text-decoration: underline;}
+.sidebar-continue-with-section {font-weight: 500;font-size: 15px;}
+.sidebar-social-btn-section a {color: #6E6E6E;border-color: #E0E0E0;padding: 10px;}
+.sidebar-social-btn-section span {vertical-align: middle;}
+.sidebar-contact-section a{ color: unset;text-decoration: none; }
+.account-menu-link-span{
+    width: 25px;
+    max-height: 25px;
+    display: inline-block;
+  }
+  .account-menu-link img{
+    width: 25px;
+    height: 25px;
+  }
+  .account-menu-link-a{
+    /* width: calc(100% - 60px); */
+    display: inline-block;
+    padding: 0px 8px;
+    color: #000;
+    vertical-align: middle;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .account-menu-link-a:hover{
+    text-decoration: none;
+    color: #000;
+  }
+  .account-menu-link-i{
+    /* width: 25px; */
+    display: inline-block;
+    float: right;
+    position: relative;
+    top: 3px;
+    font-size: 20px;
+  }
+  .ar .account-menu-link-i{ float: left; }
+  .sidebar-contact-section{
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+  .social-btns .account-menu-link{
+    text-align: center;
+    font-size: 18px;
+    color: #969696;
+  }
+  .social-btns .account-menu-link i{
+    border: 2px solid #969696;
+    padding: 5px;
+    border-radius: 2px;
+    width: 30px;
+    height: 30px;
+  }
+  .social-btns{
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+  }
+/* END Sidebar section */
+
+@media (max-width: 991px){
+    .cart-total span{top: 14px;right: 7px !important;}
+}
+@media (min-width: 768px){
+    .navbar.global-header {padding: 0.5rem 4rem;}
+}
+
+@media (max-width: 768px) {
+    .page-content {
+        min-height: calc(100vh - 133px);
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+.sidebar-logo-section {padding: 0px 16px 16px 16px;}
+.sidebar-logo-section .mobi-back-div {line-height: 57px;}
+.sidebar-logo-section .fa {padding: 11px 15px 11px 13px;border-radius: 8px;background-color: #FFFFFF;box-shadow: 0px 1px 2px #00000033;}
+.sidebar-logo-section .sidebar-logo {vertical-align: middle;border-radius:50%;height: 60px;}
+.sidebar-logo-section .sidebar-business-name {padding: 5px;border-radius: 8px;background-color: #f4f4f4;border: 1px solid #EEEEEE;color: #000;}
+.sidebar-contact-section .que-circle {height: 18px;}
+.sidebar-contact-section .need-help {font-size: 13px;}
+.sidebar-contact-section .customer-care {padding-left: 20px;font-size: 13px;line-height: 16px;color: #606060;}
+.sidebar-contact-section .contact-label {font-size: 12px;}
+.sidebar-contact-section .contact-img {height: 14px;}
+.en .sidebar-contact-section .phone-div {padding: 0 5px 0 15px;}
+.ar .sidebar-contact-section .phone-div {padding: 0 15px 0 5px;}
+.sidebar-contact-section .whatsapp-div {padding: 0px 5px 0 5px;}
+.en .sidebar-contact-section .mail-div {padding: 0 15px 0 5px;}
+.ar .sidebar-contact-section .mail-div {padding: 0 5px 0 15px;}
+.en .sidebar-social-btn-section .apple-img {padding: 0 5px 0 0;}
+.ar .sidebar-social-btn-section .apple-img {padding: 0 0px 0 5px;}
+.en .sidebar-social-btn-section .google-img {padding: 0px 0 0 5px;}
+.ar .sidebar-social-btn-section .google-img {padding: 0px 5px 0 0px;}
+  
+@media (max-width: 576px){
+  #lr_sidebar_modal .modal-dialog {width: calc(100% - 11%);}
+}
+.quick-checkout-footer{
+  display: none;
+}
+.home-left-section .quick-checkout-footer{
+  display: block !important;
+}
+
+.mobile-view-booking .mobile-list .img-square {
+  opacity: 0.5;
+}
+.col-md-6.form-group.ck-input.error-group.ar .iti__flag-container{
+    right: 0;
+    left: auto;
+}
+.col-md-6.form-group.ck-input.error-group.ar .iti--separate-dial-code input[type=text] {
+  padding-right: 95px;
+}
+.ar .iti--allow-dropdown input[type=tel], .ar .iti--separate-dial-code input[type=tel] {padding-right: 95px;}
+.bookings-page .page-title{
+  text-align: left;
+  padding: 10px 20px;
+}
+.bookings-page .book-header-div{
+  display: inline-block;
+  height: 45px;
+  width: 49%;
+}
+.bookings-page .my-orders-search input{
+  box-shadow: none;
+  border-color: #eee;
+  height: 45px;
+  border: none;
+  line-height: 45px;
+  padding-left: 40px;
+}
+.book-title{
+  font-size: 22px;
+  font-weight: 700;
+  padding-right: 10px;
+}
+.book-filter{
+    color: #B1B1B1;
+    font-weight: 600;
+    font-size: 16px;
+    padding-top: 7px;
+}
+.bookings-page .my-orders-search .fa-search{
+  top: 18px;
+  left: 15px;
+}
+.bookings-page .page-padding {
+  padding: 16px;
+}
+.booking-filter-block .heading{
+  text-transform: uppercase;
+  padding: 16px;
+}
+.booking-filter-block .title{
+  padding: 16px;
+}
+.my-booking-list{
+  border: 1px solid #E4E4E4;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.bookinglist-img{
+  width: 75px;
+  display: inline-block;
+}
+.bookinglist-img img{
+  border-radius: 5px;
+  border: 1px solid #E4E4E4;
+  padding: 5px;
+  height: 75px;
+}
+.bookinglist-detail{
+  display: inline-block;
+  width: calc(100% - 81px);
+  padding-left: 16px;
+}
+.booking-view-details{
+  display: inline-block;
+  width: 15px;
+  height: 75px;
+  line-height: 75px;
+  cursor: pointer;
+  color: #000;
+}
+.mybookinglist{
+  display: flex;
+}
+.my-booking-list .appointment-title, .booking-number{
+  margin-bottom: 0;
+}
+.bookinglist-status{
+  padding-top: 12px;
+  border-top: 1px solid #E4E4E4;
+}
+.mybook-header{
+    display: flex;
+    padding: 0 15px;
+}
+@media (max-width: 992px){
+  .book-title, .book-filter{
+    font-size: 16px;
+  }
+  .booking-details-filter{
+    padding-left: 0;
+    padding-right: 0;
+  }
+    .mybook-header{
+        display: block;
+    }
+
+    .book-filter{
+        padding-top: 0;
+    }
+}
+@media (max-width: 768px){
+  .bookings-page .book-header-div, .book-title{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .my-orders-search.en{margin-right: 10px;}
+  .my-orders-search.ar{margin-left: 10px;}
+  .my-orders-filter.en{margin-left: -10px}
+  .my-orders-filter.ar{margin-right: -10px}
+  .book-filter-search form{
+    display: flex;
+    padding: 15px 15px 0;
+    border-top: 1px solid #E4E4E4;
+  }
+  .bookings-page .page-title{
+    padding: 10px 0;
+  }
+  .page-title{
+    border: none;
+  }
+  .mybook-header{
+    display: flex;
+    padding-bottom: 15px;
+  }
+  .mybook-back-arrow{
+    border: none;
+  }
+  .mybook-back-arrow{
+    color: #000;
+  }
+  .book-title{
+    text-align: center;
+  }
+  .my-booking-list .appointment-title, .booking-number{
+    overflow: hidden;
+    font-size: 16px;
+  }
+  .bookinglist-detail{
+    padding-right: 15px;
+  }
+  .bookinglist-img{
+    height: auto;
+  }
+  .booking-list-div{
+    padding: 0;
+  }
+}
+
+.ar .iti--allow-dropdown input[type=tel], .ar .iti--separate-dial-code input[type=tel], .ar .iti.iti--allow-dropdown #mobile_number {padding-right: 95px;padding-left: 0px !important;text-align: right;direction: ltr;} .ar .iti.iti--allow-dropdown #mobile_number_pickup {padding-right: 95px;padding-left: 0px !important;}
+.ar .iti__selected-dial-code {direction: ltr;margin-right: 6px;margin-left: 0px !important;}
+.ar .iti--allow-dropdown .iti__flag-container, .ar .iti--separate-dial-code .iti__flag-container {right: 0;left: auto;}

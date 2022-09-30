@@ -1,0 +1,255 @@
+.specific-product{
+    margin-top: 15px;
+}
+.specific-product h4 {
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+}
+.specific-date-time{
+    padding: 15px;
+    border: 1px solid #E0E0E0;
+    border-radius: 0;
+}
+.specific-date-time.first-block{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.specific-date-time.second-block{
+    border-top: 0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 30px;
+}
+.booking-date-block {
+    border: 1px solid #DBDBDB;
+    border-radius: 5px;
+    height: 70px;
+    margin-bottom: 5px;
+}
+.specific-time{
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+.booking-details-label {
+    letter-spacing: 0px;
+    color: #BABABA;
+    font-size: 16px;
+    margin-bottom: 2px;
+    margin-top: 7px;
+}
+.selectavailabletype label {
+    color: #ddd;
+    margin-right: 10px;
+    display: inline-block !important;
+}
+#booking_date_lable{
+    color: #000;
+    font-size: 16px;
+}
+.book-details-arrow {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    font-size: 25px;
+}
+.selecttimeslotdiv {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.selecttimeslotdiv span.timeavailable {
+    color: var(--buttonColor);
+    border-color: var(--buttonColor);
+}
+.selecttimeslotdiv span {
+    border: 1px solid #ddd;
+    color: #ddd;
+    border-radius: 10px;
+    padding: 11px 14px;
+    display: inline-block;
+    margin: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 92px;
+}
+.selecttimeslotdiv span.timeavailableselect, .selecttimeslotdiv span.timeavailable:hover {
+    color: #fff;
+    background: var(--buttonColor);
+    border-color: var(--buttonColor);
+}
+.selectavailablespan {
+    width: 12px;
+    height: 12px;
+    border: 2px solid #ddd;
+    display: inline-block;
+    border-radius: 3px;
+}
+.selectavailablespan.active {
+    border-color: var(--buttonColor);
+}
+.selectavailablespan.select {
+    border-color: var(--buttonColor);
+    background: var(--buttonColor);
+}
+.booking-variation-header {
+    padding: 0;
+    text-transform: capitalize;
+}
+.including-currency-block {
+    line-height: 28px;
+}
+
+.booking-label {
+    color: var(--buttonColor) !important;
+}
+.clear_all_filter {
+    padding: 0;
+    background: #fff;
+    margin: 0 10px;
+    color: #f40000;
+    display: none;
+    font-size: 14px;
+}
+.rest-select {
+    position: relative;
+    border: 1px solid #dee2e6;
+    border-bottom: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 0 !important;
+    padding: 15px;
+}
+.specific-product .list-group-item {
+    border: none;
+    border-bottom: 1px solid #dee2e6;
+    border-radius: 0;
+    margin: 0 !important;
+    padding: 10px !important;
+}
+.specific-product .booking-item-list .list-group-item {
+    border: 1px solid #dee2e6;
+    border-bottom: none;
+}
+.variation-check {
+    width: 40px;
+    display: inline-block;
+}
+.variation-name {
+    width: calc(100% - 170px);
+    display: inline-block;
+    margin-right: 10px;
+    overflow: hidden;
+}
+.variation-name p {
+    margin-bottom: 0;
+    color: #606060;
+}
+.item-label {
+    cursor: pointer;
+}
+.variation-quantity {
+    width: 120px;
+    display: inline-block;
+}
+.specific-product .btn-booking-qty.btn-number {
+    outline: none !important;
+    box-shadow: none;
+    background: #fff !important;
+    border-radius: 50%;
+    color: #fff;
+    width: 26px;
+    height: 26px;
+    border: 2px solid var(--buttonColor);
+}
+.specific-product .btn-booking-qty.btn-number > i {
+    font-size: 14px;
+    color: var(--buttonColor) !important;
+    line-height: 23px;
+}
+.specific-product .included_item_quantity, .specific-product .extra_item_quantity {
+    text-align: center;
+    width: 35%;
+    margin: 0 10px;
+    border-radius: 5px;
+    background: #f8f8f8;
+    outline: none;
+}
+.specific-product .booking-item-list:last-child .list-group-item {
+    border-bottom: 1px solid #dee2e6;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.book-details-checkmark {
+    left: 7px;
+}
+.show-calendar .datepicker-inline {
+    width: 100%;
+}
+.show-calendar .datepicker-inline .table-condensed {
+    margin: 0 auto;
+}
+.show-calendar .datepicker .next, .show-calendar .datepicker .prev {
+    cursor: pointer;
+    border-radius: 50px !important;
+    box-shadow: 0 2px 1px 0 #ddd;
+}
+.show-calendar .datepicker td, .show-calendar .datepicker th {
+    width: 50px !important;
+    height: 50px !important;
+    border: 2px solid transparent !important;
+}
+.show-calendar .datepicker .next, .show-calendar .datepicker .prev {
+    cursor: pointer;
+    border-radius: 50px !important;
+    box-shadow: 0 2px 1px 0 #ddd;
+}
+.show-calendar .datepicker td, .show-calendar .datepicker th {
+    width: 50px !important;
+    height: 50px !important;
+    border: 2px solid transparent !important;
+}
+.show-calendar .datepicker table tr td.day:hover, .show-calendar .datepicker table tr td.day:focus, .show-calendar .datepicker table tr td.day.active {
+    background: var(--buttonColor) !important;
+    cursor: pointer;
+    border-radius: 50px !important;
+    color: #fff !important;
+}
+.show-calendar .datepicker td, .show-calendar .datepicker th {
+    width: 50px !important;
+    height: 50px !important;
+    border: 2px solid transparent !important;
+}
+.show-calendar .day {
+    color: var(--buttonColor);
+}
+.product-calendar{
+    border: 1px solid #DBDBDB;
+    border-radius: 5px;
+}
+.specific-product .btn-booking-qty.btn-number > i {
+    line-height: 20px;
+}
+@media (max-width: 600px){
+    #product_detail_modal .modal-lg{
+        width: 100% !important;
+        margin: 15px 0 !important;
+    }
+    .product-details-section{
+        padding: 0;
+    }
+    .booking-variation-header{
+        width: 50%;
+        font-size: 14px;
+    }
+}
+.share-btn{
+    display: inline-block;
+}
+.share-icons{
+    width: 1rem;
+    height: 1rem;
+}

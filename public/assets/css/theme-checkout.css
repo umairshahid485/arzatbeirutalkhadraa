@@ -1,0 +1,558 @@
+.file-preview {
+    display: none;
+}
+.iti.iti--allow-dropdown.iti--separate-dial-code {
+    width: 100%;
+}
+.show-calendar .datepicker table,
+.datepicker.datepicker-inline {
+    width: 100%;
+    min-height: 300px;
+    background: #fff;
+    background-color: #fff;
+    padding: 0px;
+}
+.show-calendar .datepicker tr:first-child th,
+.show-calendar .datepicker tr:first-child th:hover {
+    color: #000;
+    background-color: transparent;
+}
+.show-calendar .datepicker th {
+    color: #8a898d;
+    background: #fff;
+    font-size: 16px;
+    width: 20px;
+    height: 20px;
+}
+.show-calendar .datepicker td {
+    font-weight: 500;
+    width: 20px;
+    height: 20px;
+}
+.show-calendar .datepicker table tr {
+    font-size: 14px;
+}
+.show-calendar .datepicker table .next .fa,
+.show-calendar .datepicker table .prev .fa {
+    font-size: 25px;
+}
+.datepicker table tr td,
+.datepicker table tr th {
+    box-sizing: unset;
+    border-color: unset;
+    border-radius: 0;
+    border: 0;
+}
+.datepicker table tr td.active.active,
+.datepicker table tr td.active.highlighted.active,
+.datepicker table tr td.active.highlighted:active,
+.datepicker table tr td.active:active {
+    background-color: var(--buttonColor) !important;
+    /*border-color: var(--buttonColor) !important;*/
+    font-weight: 600;
+    background-image: none;
+    border-radius: 5px;
+}
+
+.toggle-outer {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+}
+.toggle-outer input {
+    display: none;
+}
+.toggle-btn {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #e6e6e6;
+    border-color: #8c8c8c;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 34px;
+}
+.toggle-btn:before {
+    position: absolute;
+    content: "";
+    height: 23px;
+    width: 23px;
+    left: 4px;
+    bottom: 3.8px;
+    background-color: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+input:checked + .toggle-btn {
+    background-color: #2ab934;
+}
+input:focus + .toggle-btn {
+    box-shadow: 0 0 1px #2196f3;
+}
+input:checked + .toggle-btn:before {
+    -webkit-transform: translateX(1.2rem);
+    -ms-transform: translateX(1.2rem);
+    transform: translateX(1.2rem);
+}
+.toggle-btn:after {
+    content: "";
+    color: #8c8c8c;
+    display: block;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    font-size: 10px;
+    font-family: Verdana, sans-serif;
+}
+
+.select2-container {
+    width: 100% !important;
+}
+.select2-container--default .select2-selection--single {
+    padding: 0.25rem 0.5rem;
+    height: 100%;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    top: 65%;
+}
+.has-error {
+    border: 1px solid red !important;
+    border-radius: 0.25rem;
+}
+.error-form {
+    border: 1px solid red !important;
+    border-radius: 0.25rem;
+}
+
+/* START bottom login modal */
+.scl-login-header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+}
+.scl-login-box {
+    border: 1px solid #009bcd;
+    border-radius: 2px !important;
+    opacity: 1;
+    margin: 0 37px 0 37px;
+}
+.scl-login-box a {
+    text-decoration: none;
+}
+.scl-login-box-content {
+    margin: 23px 10px 23px 5px;
+}
+.scl-login-box-text {
+    font-size: 16px;
+    font-weight: bold;
+    color: #009bcd;
+    padding: 5px 0 0 50px;
+    vertical-align: middle;
+}
+.scl-login-text {
+    color: #000 !important;
+    opacity: 1 !important;
+    font-size: 16px !important;
+    padding-top: 10px;
+}
+.scl-footer-save-card {
+    margin: 30px 0px 38px 38px;
+}
+.scl-save-card {
+    margin: 0 5px 0 5px;
+    padding: 0 5px 0 5px;
+    background: #f5f5f5;
+    border-radius: 10px;
+    opacity: 1;
+}
+.scl-sc-img {
+    padding: 15px 10px 10px 25px;
+}
+.scl-sec-img {
+    padding: 15px 10px 10px 25px;
+}
+.scl-fc-img {
+    padding: 17px 38px 10px 10px;
+}
+.scl-save-card p {
+    text-align: center;
+    color: #333333 !important;
+    font-size: 8px;
+}
+.scl-footer {
+    align-content: center;
+    margin: 30px 0 20px 100px;
+}
+.scl-footer-text {
+    text-align: center;
+    justify-content: center;
+    color: #333333;
+    font-size: 12px;
+    margin-left: 18px;
+}
+.scl-footer-knet {
+    padding: 0 5px 0 5px;
+    margin: 0 10px 0 10px;
+}
+.scl-footer-visa {
+    padding: 0 5px 0 5px;
+    margin: 0 10px 0 10px;
+}
+.scl-footer-master {
+    padding: 0 5px 0 5px;
+    margin: 0 10px 0 15px;
+}
+@media (max-width: 375px) {
+    .scl-login-header {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        letter-spacing: 0px;
+        color: #333333;
+        opacity: 1;
+    }
+    .scl-login-text {
+        color: #000 !important;
+        opacity: 1 !important;
+        font-size: 14px !important;
+        padding-top: 5px;
+    }
+    .scl-footer {
+        align-content: center;
+        margin: 20px 0 0 100px;
+    }
+    .scl-fc-img {
+        padding: 17px 38px 10px 3px;
+    }
+    .scl-login-box-text {
+        font-size: 14px;
+        font-weight: bold;
+        color: #009bcd;
+        padding: 5px 0 0 20px;
+    }
+    .scl-footer-save-card {
+        margin: 30px 0px 38px 38px;
+    }
+    .scl-footer {
+        align-content: center;
+        margin: 0 0 20px 80px;
+    }
+}
+.en.msg {
+    margin: 0 0 0 0;
+}
+.ar.msg {
+    margin: 0 0 0 0;
+}
+.payment-buttons-div .payment-btn.knet .en.logo_img {
+    position: relative;
+    width: auto;
+    height: 44px;
+    margin: 0 0 0 0;
+}
+.payment-buttons-div .payment-btn.knet .ar.logo_img {
+    position: relative;
+    width: auto;
+    height: 44px;
+    margin: 0 0 0 0;
+}
+.payment-buttons-div .payment-btn.cc .en.logo_img {
+    position: relative;
+    width: auto;
+    height: 49px;
+    margin: 0 0 0 -2px;
+}
+.payment-buttons-div .payment-btn.cc .ar.logo_img {
+    position: relative;
+    width: auto;
+    height: 49px;
+    margin: 0 -1px 0 0;
+}
+.payment-buttons-div .payment-btn.spay .en.logo_img {
+    position: relative;
+    top: 8px;
+    width: auto;
+    height: 25px;
+    margin: 0 0 0 1px;
+}
+.payment-buttons-div .payment-btn.spay .ar.logo_img {
+    position: relative;
+    top: 11px;
+    width: auto;
+    height: 25px;
+    margin: 0 1px 0 0;
+}
+.payment-buttons-div .payment-btn.cod .en.logo_img {
+    position: relative;
+    top: 5px;
+    width: auto;
+    height: 32px; /* margin: -1px 0 0px -1px; */
+}
+.payment-buttons-div .payment-btn.cod .ar.logo_img {
+    position: relative;
+    top: 5px;
+    width: auto;
+    height: 35px; /*margin: -1px 2px 3px 0;*/
+}
+.save-cards .payment-btn.cc .en.logo_img {
+    position: relative;
+    top: -5px;
+    width: auto;
+    height: 49px;
+    margin: 0 0 0 -2px;
+}
+.save-cards .payment-btn.cc .ar.logo_img {
+    position: relative;
+    top: 0;
+    width: auto;
+    height: 49px;
+    margin: 0 0 0 0;
+}
+.payment-buttons-div .payment-btn.knet .pay-btn-label.d-none {
+    position: relative;
+    font-size: 16px;
+    display: contents !important;
+}
+.payment-buttons-div .payment-btn.cc .pay-btn-label.d-none {
+    position: relative;
+    font-size: 16px;
+    display: contents !important;
+}
+.payment-buttons-div .payment-btn.cod .pay-btn-label.d-none {
+    font-size: 16px;
+    display: initial !important;
+}
+.payment-buttons-div .en.knet-amount-label {
+    right: 26px !important;
+}
+.payment-buttons-div .ar.knet-amount-label {
+    left: 26px !important;
+}
+.payment-buttons-div .en.cc-amount-label,
+.en.cod-amount-label {
+    right: 26px !important;
+}
+.payment-buttons-div .ar.cc-amount-label,
+.ar.cod-amount-label {
+    left: 26px !important;
+}
+.save-cards .payment-btn .amount.en {
+    top: 12px;
+    right: 18px;
+}
+.save-cards .payment-btn .amount.ar {
+    top: 12px;
+    left: 18px;
+}
+.save-cards .payment-btn .card-details {
+    font-size: 13px;
+    color: #98999a;
+    font-weight: 500;
+    position: relative;
+    top: 9px;
+    margin: 0px auto;
+}
+.fa-chevron-left {
+    margin: 17px 0 0 -1px;
+    color: var(--buttonColor);
+}
+.fa-chevron-right {
+    margin: 17px -1px 0 0;
+    color: var(--buttonColor);
+}
+@media (max-width: 576px) {
+    .en.msg {
+        margin: -5px 0 0 0 !important;
+    }
+    .ar.msg {
+        margin: -5px 0 0 0 !important;
+    }
+    .payment-buttons-div .payment-btn.knet .pay-btn-label.d-none {
+        position: relative;
+        font-size: 12px;
+        display: contents !important;
+    }
+    .payment-buttons-div .payment-btn.cc .pay-btn-label.d-none {
+        position: relative;
+        font-size: 12px;
+        display: contents !important;
+    }
+    .payment-buttons-div .payment-btn.cod .pay-btn-label.d-none {
+        font-size: 12px;
+        padding-left: 0px !important;
+        display: initial !important;
+    }
+    .payment-buttons-div .payment-btn.knet .ar.logo_img {
+        margin: 0 0 0 0;
+    }
+    .payment-buttons-div .payment-btn.cc .ar.logo_img {
+        margin: 0 -1px 0 0;
+    }
+    .payment-buttons-div .payment-btn.spay .en.logo_img {
+        position: relative;
+        top: 11px;
+        width: auto;
+        height: 24px;
+        margin: 0 1px 0 0;
+    }
+    .payment-buttons-div .payment-btn.spay .ar.logo_img {
+        position: relative;
+        top: 11px;
+        width: auto;
+        height: 24px;
+        margin: 0 1px 0 0;
+    }
+    .payment-buttons-div .payment-btn.cod .ar.logo_img {
+        position: relative;
+        top: 4px;
+        width: auto;
+        height: 35px; /*margin: 0 1px 0 0;*/
+    }
+    .payment-buttons-div .en.knet-amount-label {
+        font-size: 13px;
+        right: 21px !important;
+        top: 17px;
+    }
+    .payment-buttons-div .ar.knet-amount-label {
+        font-size: 13px;
+        left: 21px !important;
+        top: 17px;
+    }
+    .payment-buttons-div .en.cc-amount-label,
+    .en.cod-amount-label {
+        font-size: 13px;
+        right: 21px !important;
+        top: 17px;
+    }
+    .payment-buttons-div .ar.cc-amount-label,
+    .ar.cod-amount-label {
+        font-size: 13px;
+        left: 21px !important;
+        top: 17px;
+    }
+    .save-cards .payment-btn .amount.en {
+        font-size: 13px;
+        right: 17px;
+        top: 14px;
+    }
+    .save-cards .payment-btn .amount.ar {
+        font-size: 13px;
+        left: 17px;
+        top: 14px;
+    }
+    .save-cards .payment-btn.cc .en.logo_img {
+        position: relative;
+        top: 4px;
+        width: auto;
+        height: 49px;
+        margin: -2px 0 0 4px;
+    }
+    .save-cards .payment-btn.cc .ar.logo_img {
+        position: relative;
+        top: 4px;
+        width: auto;
+        height: 49px;
+        margin: -2px 3px 0 0;
+    }
+    .save-cards .payment-btn .card-details {
+        font-size: 9px;
+        color: #98999a;
+        font-weight: 500;
+        position: relative;
+        top: 7px;
+        margin: 0px -4px;
+    }
+    .fa-chevron-left {
+        margin: 17px 0 0 -1px;
+        font-size: 13px;
+        color: var(--buttonColor);
+    }
+    .fa-chevron-right {
+        margin: 17px -1px 0 0;
+        font-size: 13px;
+        color: var(--buttonColor);
+    }
+    .save-cards .fa-chevron-left {
+        margin: 17px 0 0 5px;
+        font-size: 13px;
+        color: var(--buttonColor);
+    }
+    .save-cards .fa-chevron-right {
+        margin: 18px 5px 0 0;
+        font-size: 13px;
+        color: var(--buttonColor);
+    }
+    .switch-to {
+        font-size: 13px;
+    }
+}
+
+.error {
+    color: red;
+}
+.success {
+    color: #a6c2ad !important;
+}
+:root {
+    --contentBG: #edecee;
+    --fontColor: #fff;
+    --headerLinkColor: #fff;
+    --buttonColor: #399e39;
+    --CategorySliderColor: #399e39;
+    --categoryFontColor: #000000;
+    --outOfStockBgColor: #240d0d;
+    --saleBgColor: #f50808;
+}
+.category_position_bottom {
+    display: block !important;
+}
+@keyframes slideup {
+    0% {
+        bottom: -50px;
+    }
+    100% {
+        bottom: 8px;
+    }
+}
+.ath-viewport {
+    display: none;
+}
+.ath-viewport .ath-container {
+    position: fixed;
+    bottom: 0;
+    left: 2px;
+    right: 2px;
+    margin-left: 0px;
+    width: 99%;
+    background: #ffffff;
+}
+.text-left {
+    text-align: left;
+}
+.ath-container {
+    border-radius: 20px 20px 0px 0px !important;
+}
+.ath-container:before {
+    font-size: 12px !important;
+}
+.ath-container p {
+    margin-top: 10px !important;
+    font-size: 14px !important;
+    line-height: 15pt;
+}
+.ath-ios.ath-phone {
+    bottom: 0 !important;
+    left: 137px !important;
+}
+
+/*.selected {
+			opacity: 0.5;
+		}*/
+/* END bottom login modal */
